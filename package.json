@@ -4,5 +4,12 @@
   "description": "a backend practis",
   "main": "index.js",
   "author": "arjun",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  }
 }
